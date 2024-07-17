@@ -71,6 +71,10 @@
     padding: 5px;
     font-size: smaller;
   }
+
+  @media screen and (max-width: 600px) { 
+  #profile_img { display: none; }  
+}
 </style>
 
 <body class="bg-white">
@@ -120,7 +124,7 @@
         <div class="col-md-4">
           <section id="about" class="py-5">
             <div class="About-img">
-              <img src="images/Photo.png" class="p-3 mw-100" style="height:400px; border-radius:20%;" />
+              <img src="images/Photo.png" id="profile_img" class="p-3 mw-100" style="height:400px; border-radius:20%;" />
               <!-- class="rounded-circle mw-100" -->
             </div>
         </div>
